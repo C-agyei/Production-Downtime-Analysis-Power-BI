@@ -105,6 +105,28 @@ Based on the analysis, the following actions were recommended:
 
 This analysis demonstrates how production data can be transformed into actionable business intelligence. By identifying the major sources of downtime and monitoring operational KPIs, manufacturing teams can prioritise improvement initiatives, strengthen production planning, reduce avoidable interruptions, and support more informed operational decisions.
 
+## Power BI Dashboard
+
+The interactive Power BI dashboard was developed across three analytical views to examine downtime frequency, downtime duration, and operator scheduling.
+
+### 1. Downtime Factor Overview
+
+![Downtime Factor Overview](01-Factor%20Overview.png)
+
+This view provides an overview of production downtime, including delayed batches, days lost, downtime factor frequency, product-level downtime, operator-related downtime, and monthly trends.
+
+### 2. Downtime Duration Analysis
+
+![Downtime Duration Analysis](02-Duration%20Analysis.png)
+
+This view analyses the duration and operational impact of downtime, including planned versus actual production time, product delay hours, time spent across downtime factors, operator downtime impact, and operator versus non-operator downtime.
+
+### 3. Operator Scheduling
+
+![Operator Scheduling](03-Operator%20Scheduling.png)
+
+This view supports investigation of operator scheduling and multiple-batch activity by showing selected operators, days with multiple batches, downtime frequency, batch volumes, and detailed production records.
+
 ## Repository Contents
 
 - `SQL` — SQL queries used for data exploration, transformation, validation, and analysis.
